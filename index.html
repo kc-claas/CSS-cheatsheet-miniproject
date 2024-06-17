@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="ucf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS cheatsheet</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Keith's CSS Cheatsheet</h1>
+    </header>
+    <p>Here's some prepared CSS syntax for quick reference</p>
+    <main class="tile-container">
+        <section class="tile">
+            <h2 class="tile-heading">
+                Flexbox Row with Wrap
+            </h2>
+            <p class="tile-description">
+                This will create a flexbox row layout with wrapping
+            </p>
+                <pre class="highlight-box"><code>    element{display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;}
+</code></pre>
+        </section>
+        <section class="tile">
+            <h2 class="tile-heading">
+                Flexbox Column
+            </h2>
+            <p class="tile-description">
+                This will create a flexbox column layout
+            </p>
+                <pre class="highlight-box"><code>    element{display: flex;
+        flex-direction: column;}
+</code></pre>
+        </section>
+        <section class="tile">
+            <h2 class="tile-heading">
+                Media Query
+            </h2>
+            <p class="tile-description">
+                This will create a media query to modify css on screen width under 768px
+            </p>
+                <pre class="highlight-box"><code>    @media screen and 
+    (max-width=768px) element{}
+</code></pre>
+        </section>
+        <section class="tile">
+            <h2 class="tile-heading">
+                Background Gradient
+            </h2>
+            <p class="tile-description">
+                This will create a background 'image' of a linear gradient
+            </p>
+                <pre class="highlight-box"><code>    element{
+        background-image: 
+        linear-gradient:
+        (color1 0%, color2 100%);}
+</code></pre>
+        </section>
+        <section class="tile">
+            <h2 class="tile-heading">
+                Border and Shadow Transition
+            </h2>
+            <p class="tile-description">
+                This will make borders and box shadows change when the object is hovered over
+            </p>
+                <pre class="highlight-box"><code>    element{transition: 
+        all 0.5 ease-in-out}
+                    
+    element:hover {
+        border: solid white 3px;
+        box-shadow: 
+        inset 0px 0px 5px color1;}
+</code></pre>
+        </section>
+        <section class="tile">
+            <h2 class="tile-heading">
+                Title Card Positioning
+            </h2>
+            <p class="tile-description">
+                This will align title cards to be overlap with the top border of the tiles
+            </p>
+                <pre class="highlight-box"><code>    element{position:absolute;
+        top: -50px;}
+</code></pre>
+        </section>
+    </main>
+</body>
+
+<footer>
+    I'll put a clever footer here eventually, i swear
+</footer>
+
+</html>
